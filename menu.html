@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	
+		<title>Site designer</title>
+
+		<link rel="stylesheet" href="js/CodeMirror/lib/codemirror.css" type="text/css" media="screen" charset="utf-8">
+		<script src="js/CodeMirror/lib/codemirror.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/CodeMirror/mode/css/css.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/CodeMirror/mode/javascript/javascript.js" type="text/javascript" charset="utf-8"></script>
+
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+		<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<table border="0">
+			<tbody>
+				<tr>
+					<td>
+						Free Draw
+					</td>
+					<td>
+						<input type="submit" name="free_draw" value="Free Draw" id="free_draw" class="action canvas-draw-button">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Line Draw
+					</td>
+					<td>
+						<input type="submit" name="line_draw" value="Line Draw" id="line_draw" class="action canvas-draw-button">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Square Draw
+					</td>
+					<td>
+						<input type="submit" name="square_draw" value="Square Draw" id="square_draw" class="action canvas-draw-button">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Eraser
+					</td>
+					<td>
+						<input type="submit" name="eraser_draw" value="Eraser" id="eraser_draw" class="action canvas-draw-button">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="0">
+			<tbody>
+				<tr>
+					<td>
+						<input type="submit" name="undo_draw" id="undo_draw" value="undo" class="action canvas-draw-button">
+					</td>
+					<td>
+						<input type="submit" name="redo_draw" id="redo_draw" value="redo" class="action canvas-draw-button">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="0">
+			<tbody>
+				<tr>
+					<td>
+						<input type="submit" name="submit" id="prop_submit" value="Submit">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="text" id="prop_text" value="Text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<textarea name="textarea" rows="2" cols="10" id="prop_textarea">Textarea</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Paragraph</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="javascript:void(0)">Anchor</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="0">
+			<tbody>
+				<tr>
+					<td>
+						<textarea id="css-prop-editor">#Prop {
+  
+}</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select id="event_type">
+							<option value="click">click</option>
+							<option value="dblclick">dblclick</option>
+							<option value="mousedown">mousedown</option>
+							<option value="mousemove">mousemove</option>
+							<option value="mouseover">mouseover</option>
+							<option value="mouseout">mouseout</option>
+							<option value="mouseup">mouseup</option>
+							<option value="keydown">keydown</option>
+							<option value="keypress">keypress</option>
+							<option value="keyup">keyup</option>
+							<option value="blur">blur</option>
+							<option value="change">change</option>
+							<option value="focus">focus</option>
+							<option value="reset">reset</option>
+							<option value="select">select</option>
+						</select>
+						<textarea id="javascript-prop-editor">Prop.addEventListener('            ', function() {
+	
+});</textarea>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</body>
+</html>

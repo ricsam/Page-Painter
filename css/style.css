@@ -1,0 +1,19 @@
+html
+{
+	overflow-x: hidden; 
+}
+body
+{
+	width: 800px;
+}
+#event_type
+{
+	left: 226px;
+	margin-top: -1px;
+	position: absolute;
+	z-index: 5 !important;
+}
+pre
+{
+	margin: 0;
+}
