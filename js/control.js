@@ -181,6 +181,7 @@ var PROPS = {
 							PROPS.CANVAS.elements[PROPS.CANVAS.elements.length - 1].end[0] - PROPS.CANVAS.elements[PROPS.CANVAS.elements.length - 1].start[0], 
 							PROPS.CANVAS.elements[PROPS.CANVAS.elements.length - 1].end[1] - PROPS.CANVAS.elements[PROPS.CANVAS.elements.length - 1].start[1] 
 						);
+						console.log(PROPS.CANVAS.elements[PROPS.CANVAS.elements.length - 1]);
 					}
 					if (PROPS.CANVAS.drawType == 'eraser') {
 						PROPS.CANVAS.overlay.clearRect(0, 0, PROPS.CANVAS.width, PROPS.CANVAS.height);
