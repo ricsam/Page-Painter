@@ -2,7 +2,6 @@ var PROPS = {
 	'CANVAS':{
 		'initialize':function(){
 
-
 			this.canvasElements = [];
 			PROPS.CANVAS.width = window.innerWidth;
 			PROPS.CANVAS.height = window.innerHeight;
